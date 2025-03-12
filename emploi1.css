@@ -1,0 +1,242 @@
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus , .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color: #666777;
+    font-weight: 500;
+}
+.nav-link:hover, .nav-link.active{
+    color: black;
+
+}
+
+
+.nav-link:hover , .nav-link.active{
+    border-bottom:solid 5px #009970 ;
+    border-radius: 5px;
+    
+
+}
+.dropdown-item:hover{
+    color: white;
+    background: #009970;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.brand{
+    font-weight: 500;
+    color:#009970 ;
+    font-size: 24px;
+    transition:  0.3s color;
+}
+.brand:hover{
+    
+    color:#3f5851 ;
+    
+}
+
+.navbar{
+    background-color: white;
+    height: 80px;
+    margin: 10px;
+    border-radius: 16px;
+    
+    
+
+}
+.dropdown-menu{
+    border: none ;
+    
+}
+/*END NAVBAR*/
+
+/* Styling for Emploi du Temps Section */
+.container my-5{
+    padding: 55px;
+}
+#emploi-du-temps-section {
+    background-color: #f0f8ff; /* Light blue background for the section */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#emploi-du-temps-section h2 {
+    font-size: 28px;
+    color: #333366; /* Dark blue for the header */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#emploi-du-temps-section p {
+    color: #555; /* Gray for subtitle text */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    background-color: #009970; /* Green color for the button */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #007a5b; /* Darker green on hover */
+    transform: scale(1.05);
+}
+/* footer */
+footer {
+    background-color: #001936;
+    padding-top: 30px;
+}
+#footer {
+    overflow: hidden;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background: #fff none repeat scroll 0 0;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    overflow-x: hidden;
+    line-height: 22px;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --navigation-border-color: #777;
+    --main-color: #0b4b80;
+    --orange: #d58630;
+    --bg-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+@media (max-width: 1440px) {
+    html {
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 1200px) {
+    html {
+        font-size: 13px !important;
+    }
+}
+@media (max-width: 1024px) {
+    html {
+        font-size: 12px !important;
+    }
+}
+html {
+    --navbar-height: 80px;
+    --hamburger-width: 2.5em;
+    --hamburger-height: .3em;
+    --hamburger-color: #333;
+    --hamburger-hover-color: #111;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+::selection {
+    background: #488dd9;
+    text-shadow: none;
+}
+
